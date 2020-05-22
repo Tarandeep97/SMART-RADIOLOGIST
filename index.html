@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body >
+	<div class="container py-4">
+        <header class="text-white text-right">
+        <h1 class="display-4" style="font-weight: bold;">SMART RADIOLOGIST</h1>
+        <p class="lead mb-0" style="margin-bottom: 10px;">AI powered X-ray diagnoser</p>
+        </header>
+
+
+        <div class="row py-4">
+            <div class="col-12">
+                <div class="progress progress-bar progress-bar-striped progress-bar-animated mb-2">Loading Model..</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <input id="image-selector" class="form-control border-0" type="file">
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <button id="predict-button" class="btn btn-light float-right">Predict</button>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-lg-7 mx-auto">
+                <div class="image-area mt-4"><img id="selected-image"  alt="" class="img-fluid rounded shadow-sm mx-auto d-block" style="max-width: 400px;max-height: 500px;"></div>
+            </div>
+            <div class="col-lg-5 mx-auto">
+                <div class="prediction-area mx-auto d-block">
+                    <ol id="prediction-list" style="color: white;font-weight: bold;font-size: 1.0rem;margin-top: 10px;"></ol>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+   <script type="text/javascript" src="predict.js"></script>
+   <script type="text/javascript" src="classes.js"></script>
+
+
+
+</body>
+</html>
