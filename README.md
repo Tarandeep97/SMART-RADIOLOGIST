@@ -1,8 +1,8 @@
 # SMART RADIOLOGIST - Covid19 normal xray Diagnoser
 ## AI based solution for automated radiology.
 ### Introduction
-The WHO has now declared COVID19 a pandemic. The virus has been named SARS-CoV-2 and the disease is now called COVID-19. It is estimated to kill more than 1 million people. It is estimated that will kill more children and Older people than HIV/AIDS, malaria, dengue combined this year. One of symptoms of COVID19 is pneumonia. Bacterial & Viral pathogens are leading cause of Pneumonia. Timely and correct diagnosis is important as pneumonia require immediate attention. Radiography
-is early stage standard step to identify pneumonia cause. When chest X-rays are interpreted
+Bacterial & Viral pathogens are leading cause of Pneumonia. Timely and correct diagnosis is important as pneumonia require immediate attention. Radiography
+is an early stage step to identify pneumonia cause. When chest X-rays are interpreted
 by a radiologist, he/she can perhaps tell cause of pneumonia. However, rapid interpretation of
 X-rays is not possible, due to unavailability of resources in some developing countries,
 especially in African Countries.
