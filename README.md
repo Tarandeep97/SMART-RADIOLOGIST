@@ -7,7 +7,6 @@ by a radiologist, he/she can perhaps tell cause of pneumonia. However, rapid int
 X-rays is not possible, due to unavailability of resources in some developing countries,
 especially in African Countries.
 In this project, I have used a technique Convolutional Neural Networks to automatically detect Pneumonia caused by COVID, Bacteria or Viral from X-ray Images. Deep learning model is embedded in browser application so as to reduce computational cost.
-It shows an accuracy of about 84.67% on unseen Xrays.
 
 ### Dataset : [COVID-19 & Normal Posteroanterior(PA) X-rays](https://www.kaggle.com/tarandeep97/covid19-normal-posteroanteriorpa-xrays)
 
