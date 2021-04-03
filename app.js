@@ -1,12 +1,3 @@
-
-Edit in JSFiddle
-
-    Result
-    HTML
-    CSS
-    JavaScript
-    Resources
-
 /*  ==========================================
     SHOW UPLOADED IMAGE
 * ========================================== */
